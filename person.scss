@@ -8,6 +8,7 @@
 
   &__photo {
     display: flex;
+    justify-content: flex-end;
     border-radius: 200px;
     overflow: hidden;
     width: 200px;
@@ -23,10 +24,10 @@
   }
 
   &__details {
+    margin-top: 8px;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
     flex-direction: column;
     font-size: 20px;
     line-height: 23px;
@@ -38,6 +39,7 @@
 .photo {
   &__rank {
     position: absolute;
+    right: 10px;
     width: 32px;
     height: 32px;
     border-radius: 50%;
