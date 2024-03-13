@@ -1,0 +1,10 @@
+.people {
+  padding-top: 30px;
+
+  display: grid;
+  grid-template-columns: repeat(4, 200px);
+  row-gap: 40px;
+  column-gap: 30px;
+  justify-content: center;
+}
+
