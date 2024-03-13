@@ -17,6 +17,7 @@
 
 .person__photo {
   border-radius: 200px;
+  justify-content: flex-end;
   align-items: center;
   width: 200px;
   height: 200px;
@@ -37,10 +38,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 8px;
   font-size: 20px;
   line-height: 23px;
   display: flex;
-  position: absolute;
 }
 
 .photo__rank {
@@ -55,6 +56,7 @@
   line-height: 18.4px;
   display: flex;
   position: absolute;
+  right: 10px;
 }
 
 .details__extra {
